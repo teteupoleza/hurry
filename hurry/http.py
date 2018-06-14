@@ -12,7 +12,6 @@ class RequestHandler():
         self.response.write(template)
 
     def status(self, status, data):
-        self.response.write('error')
         self.response.status = status
 
     def send(self, res):
